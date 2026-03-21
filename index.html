@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartmán Liptov — rezervace ubytování</title>
+    <meta
+      name="description"
+      content="Moderní one-page wireframe pro apartmán v Liptově se skvělou dostupností do Tater, Fatry a termálních lázní Bešeňová."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero section">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark">AL</span>
+            <div>
+              <p class="eyebrow">Liptov · Slovensko</p>
+              <h1>Apartmán mezi horami a termály</h1>
+            </div>
+          </div>
+          <a href="#rezervace" class="button button-secondary">Rezervovat pobyt</a>
+        </nav>
+
+        <div class="hero-grid">
+          <section class="hero-copy card card-accent">
+            <p class="eyebrow">Jednoduchý moderní wireframe</p>
+            <h2>Klidné zázemí v okrese Liptov s rychlým dosahem do všech hlavních atrakcí regionu.</h2>
+            <p class="lead">
+              Ideální základna pro turistiku, wellness i rodinné výlety — Vysoké i Nízké Tatry,
+              Malá i Velká Fatra a termální lázně Bešeňová na dosah.
+            </p>
+
+            <div class="hero-highlights">
+              <div>
+                <strong>4 hosté</strong>
+                <span>komfortní kapacita apartmánu</span>
+              </div>
+              <div>
+                <strong>Celoročně</strong>
+                <span>zimní i letní pobyty</span>
+              </div>
+              <div>
+                <strong>Bešeňová</strong>
+                <span>termály v sousedství</span>
+              </div>
+            </div>
+          </section>
+
+          <aside class="hero-visual card">
+            <div class="visual-frame">
+              <div class="visual-badge">Wireframe preview</div>
+              <div class="visual-map">
+                <span>Liptov</span>
+                <span>Vysoké Tatry</span>
+                <span>Nízké Tatry</span>
+                <span>Malá Fatra</span>
+                <span>Velká Fatra</span>
+                <span>Bešeňová</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="section info-grid">
+          <article class="card">
+            <p class="eyebrow">Proč právě tento apartmán</p>
+            <h3>Jedna stránka, vše důležité na první pohled</h3>
+            <ul class="feature-list">
+              <li>Moderní přehledný layout orientovaný na rychlou rezervaci.</li>
+              <li>Silný důraz na lokalitu a dostupnost horských i wellness cílů.</li>
+              <li>Jednoduchá obsahová struktura vhodná pro další doplnění fotografií a ceníku.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <p class="eyebrow">Lokalita & aktivity</p>
+            <h3>Liptov jako výchozí bod pro aktivní i odpočinkovou dovolenou</h3>
+            <div class="pill-grid">
+              <span class="pill">Turistika</span>
+              <span class="pill">Lyžování</span>
+              <span class="pill">Termály</span>
+              <span class="pill">Cyklotrasy</span>
+              <span class="pill">Rodiny s dětmi</span>
+              <span class="pill">Wellness víkendy</span>
+            </div>
+          </article>
+
+          <article class="card card-dark">
+            <p class="eyebrow">Dostupnost</p>
+            <h3>Dojezdové časy lze později doplnit podle konkrétní adresy</h3>
+            <div class="timeline">
+              <div><span></span>Bešeňová a okolní atrakce během krátké jízdy.</div>
+              <div><span></span>Výborné napojení na Nízké Tatry a Liptovský Mikuláš.</div>
+              <div><span></span>Dobře dosažitelné výlety do Vysokých Tater i obou Fater.</div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section booking-layout" id="rezervace">
+          <article class="card booking-copy">
+            <p class="eyebrow">Rezervace</p>
+            <h3>Rychlá poptávka pobytu</h3>
+            <p>
+              Formulář je navržený tak, aby návštěvník odeslal poptávku během několika sekund.
+              Hodí se pro napojení na e-mail, rezervační systém i vlastní CRM.
+            </p>
+            <div class="check-list">
+              <div>✔ termín příjezdu a odjezdu</div>
+              <div>✔ počet hostů a typ pobytu</div>
+              <div>✔ prostor pro speciální přání</div>
+            </div>
+          </article>
+
+          <form class="card booking-form">
+            <div class="form-grid">
+              <label>
+                <span>Příjezd</span>
+                <input type="date" name="arrival" />
+              </label>
+              <label>
+                <span>Odjezd</span>
+                <input type="date" name="departure" />
+              </label>
+              <label>
+                <span>Počet hostů</span>
+                <select name="guests">
+                  <option>1–2 osoby</option>
+                  <option>3 osoby</option>
+                  <option>4 osoby</option>
+                  <option>4+ na dotaz</option>
+                </select>
+              </label>
+              <label>
+                <span>Typ pobytu</span>
+                <select name="stay-type">
+                  <option>Rodinná dovolená</option>
+                  <option>Wellness pobyt</option>
+                  <option>Turistika / lyže</option>
+                  <option>Víkendový pobyt</option>
+                </select>
+              </label>
+              <label class="full-width">
+                <span>Jméno a kontakt</span>
+                <input type="text" name="contact" placeholder="Např. Jan Novák, e-mail nebo telefon" />
+              </label>
+              <label class="full-width">
+                <span>Poznámka</span>
+                <textarea name="message" rows="5" placeholder="Máte zájem o dětskou postýlku, pozdní příjezd nebo tipy na výlety?"></textarea>
+              </label>
+            </div>
+
+            <div class="form-footer">
+              <button type="submit" class="button">Odeslat nezávaznou poptávku</button>
+              <p>Wireframe ukázka — texty, ceník i fotografie lze dále přizpůsobit značce ubytování.</p>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
